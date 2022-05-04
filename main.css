@@ -1,0 +1,438 @@
+
+
+/*ARRANCA CSS*/
+    .main-wrapper {
+                background-color: whitesmoke;
+    
+        /*Estilos de grilla*/
+                display: grid;
+                grid-template-areas: 
+                "nav"
+                "header"
+                "main"
+                "footer";
+        }
+    
+        /*Estilos generales*/
+        header, nav, main, footer {
+                border: solid 0.1px #152442;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+                margin: 0px;
+                background-color: whitesmoke;
+                color: #152442;
+
+        }
+    
+        /*Estilos de header*/
+        header {
+                grid-area: header;
+        
+                text-align: center;
+                height: 500px;
+        
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+        }
+        header {
+
+                height: 500px;
+                padding: 15px;
+            
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                
+                
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-style: italic;
+            
+        }
+        header img {
+                max-width: 200px;
+        }
+        header div p {
+                max-width: 400px;
+            }
+
+        /* Descripción MB */
+        header {
+                display: flex;
+                flex-direction: row;
+                flex-wrap:wrap;
+                justify-content: center;
+                align-items: center;
+            }
+
+        .descripcion {
+                display: flex;
+                flex-direction: row;
+                flex-wrap:wrap;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+        /*Estilos de nav*/
+        nav {
+                grid-area: nav;
+        
+                padding: 20px;
+        
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+    
+        }
+        
+        /* Nav general */
+        nav {
+                padding: 5px;
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            
+                position: sticky;
+                top: 0;
+
+        }
+
+        /* Navegador */
+        .home-nav {
+                display: flex;
+                flex-direction: row;
+        }
+    
+        ul {
+                list-style-type: none;
+                padding: 0px;
+                text-align: center;
+    
+        }
+    
+        
+        ul li {
+                margin: 25px 0;
+    
+        }
+
+        /* Botonera nav*/
+        .home-nav-lista li:hover {
+                background: #ffcc00;
+        }
+
+        /* Botonera */
+        .home-nav-lista li a {
+                display: flex;
+                flex-direction: row;
+                flex-wrap:wrap;
+                padding: 10px 15px;
+                text-decoration: underline;
+                font-size: 14px;
+        }
+
+        .home-nav-lista li {
+                border-left: solid 0.5px;
+        }
+
+
+        nav ul {
+                list-style-type: none;
+        }
+
+        nav ul li {
+                margin: 0 15px;
+                display: flex;
+                flex-direction: column;
+                align-items:flex-start;
+                justify-content: space-around;
+        }
+        /*Estilos de main*/
+        main {
+                grid-area: main;
+        
+                display: grid;
+        
+                grid-template-areas: 
+                "intro"
+                "portfolio"
+                "casos"
+                "aside";
+                }
+
+        main {
+                height: 500px;
+                padding: 15px;
+            
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                
+                
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-style: italic;
+            }
+            
+            
+        main p {
+                font-size: large;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+        .contenedor{   
+
+   
+                height: 100px;
+            
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+            
+                align-items:flex-start;
+                justify-content: space-around;
+                }
+        .contenedor div {
+                font-size:larger;
+                background-color: #ffcc00;
+                border: solid 0.2px #152442;
+            }
+        
+    
+        .intro {
+                grid-area: intro;
+                justify-content: space-between;
+                padding: 20px;
+            }
+    
+        .portfolio {
+                grid-area: portfolio;
+                
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 20px; 
+            }
+
+
+        /* Footer General */
+        footer {
+                padding: 20px 20px;
+        }
+
+        .redes {
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+            
+        }
+
+        .logo-ig {
+                width:20px;
+                height: 20px;
+        }
+
+        .logo-tk {
+                width:20px;
+                height: 20px;
+            }
+
+        .logo-fb {
+                width:20px;
+                height: 20px;
+            }
+
+        .logo-yt {
+                width:20px;
+                height: 20px;
+            } 
+        footer {
+                grid-area: footer;
+        }
+            
+        .item-1 {
+                font-size: 10px;
+                order: 1;
+                }
+
+        .item-2 {
+                font-size: 10px;
+                order: 2;
+                }
+
+        .item-3 {
+                font-size: 10px;
+                order: 3;
+                }
+
+        footer p {
+                font-size: large;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                }
+
+        footer {    
+                background-color: #ffcc00;
+    
+                display:flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+        .casosexito {
+                padding-top: 500px;   
+                align-items: center;
+                justify-content: center;
+            }
+
+        .headercasos {
+                padding-top: 200px;   
+                align-items: center;
+                justify-content: center;
+            }
+
+        .jetsmart {
+                width: 50px;
+                height: 50px;
+        }
+        .puma {
+                width: 50px;
+                height: 50px;
+        }
+        .adidas {
+                width: 50px;
+                height: 50px;
+        }
+        .onefootball {
+                width: 50px;
+                height: 50px;
+        }
+        .tienda1 {
+                width: 180px;
+                height: 180px;
+        }
+
+        .comprar {
+                width:1200px;
+                height: 500px;
+            }
+
+
+/*Animaciones logo*/
+.redes {
+        animation-name: fade-in;
+        animation-timing-function: ease;
+        animation-duration: .5s;
+        animation-delay: .5; 
+        }
+
+/*Linea de tiempo logo*/
+        @keyframes fade-in {
+        0% {transform: translateX(800px);
+            opacity: 0;
+        }
+    
+        50% {transform: translateX(20px);
+            opacity: 10;
+        }
+    
+        100% {transform: translateX(0px);
+            opacity: 0;
+        }
+        }
+        
+/*Animaciones logo*/
+        .perfil {
+        animation-name: fade-in;
+        animation-timing-function: ease;
+        animation-duration: .5s;
+        animation-delay: .5; 
+        }
+
+/*Linea de tiempo logo*/
+        @keyframes fade-in {
+        0% {transform: translateX(800px);
+            opacity: 0;
+        }
+    
+        50% {transform: translateX(20px);
+            opacity: .5;
+        }
+    
+        100% {transform: translateX(0px);
+            opacity: 0;
+        }
+        
+        }       
+
+/*Animaciones indice*/
+
+        .home-nav-lista {
+        animation-name: fade-in;
+        animation-timing-function: ease;
+        animation-duration: .5s;
+        animation-delay: .5;        
+        }
+        
+/*Linea de tiempo indice*/
+        @keyframes fade-in {
+        0% {transform: translateX(800px);
+            opacity: 0;
+        }
+    
+        50% {transform: translateX(20px);
+            opacity: .5;
+        }
+    
+        100% {transform: translateX(0px);
+            opacity: 1;
+        }
+        
+        }       
+    
+    /*Media queries tablet*/
+      
+    
+    @media screen and (min-width: 768px) {
+        .main-wrapper {
+            grid-template-areas: 
+            "nav nav"
+            "header main"
+            "footer footer";
+            }
+            header {
+                    flex-direction: row;
+                    justify-content: space-around;
+                    text-align: left;
+                }
+                
+            main {
+                    grid-template-areas: 
+                    "intro aside"
+                    "portfolio aside"
+                    "casos casos";
+                    }
+    
+    
+    /*Media queries compu*/
+    
+    @media screen and (min-width: 1024px) {
+        .main-wrapper {
+            grid-template-areas: 
+            "nav nav"
+            "header main"
+            "footer footer";
+            }
+        header {
+                    flex-direction: row;
+                    justify-content: space-around;
+                    text-align: left;
+                }
+               
