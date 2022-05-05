@@ -325,7 +325,7 @@
             }
 
 
-/*Animaciones logo*/
+/*Animaciones redes*/
 .redes {
         animation-name: fade-in;
         animation-timing-function: ease;
@@ -348,33 +348,11 @@
         }
         }
         
-/*Animaciones logo*/
-        .perfil {
-        animation-name: fade-in;
-        animation-timing-function: ease;
-        animation-duration: .5s;
-        animation-delay: .5; 
-        }
-
-/*Linea de tiempo logo*/
-        @keyframes fade-in {
-        0% {transform: translateX(800px);
-            opacity: 0;
-        }
-    
-        50% {transform: translateX(20px);
-            opacity: .5;
-        }
-    
-        100% {transform: translateX(0px);
-            opacity: 0;
-        }
-        
-        }       
+   
 
 /*Animaciones indice*/
 
-        .home-nav-lista {
+        nav {
         animation-name: fade-in;
         animation-timing-function: ease;
         animation-duration: .5s;
